@@ -2,6 +2,7 @@
   <v-app>
     <v-main>
       <HelloWorld />
+      <a href="#" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
       <ImageDetailComponent />
       <br />
       <HomePage />
