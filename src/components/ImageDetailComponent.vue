@@ -33,7 +33,7 @@
 </template>
 <script>
 export default {
-  
+  name: 'ImageDetailComponent',
 }
 </script>
 <style lang="">
