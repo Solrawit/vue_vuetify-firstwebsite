@@ -2,12 +2,12 @@
   <v-app>
     <v-main>
       <HelloWorld />
-      <a href="#" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+      <a href="" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
       <ImageDetailComponent />
       <br />
       <HomePage />
       <br />
-      <PageTodo />
+      <PageTodo/>
     </v-main>
   </v-app>
 </template>
@@ -19,13 +19,13 @@ import ImageDetailComponent from "./components/ImageDetailComponent.vue";
 import PageTodo from "./components/PageTodo.vue";
 
 export default {
-  name: "App",
 
+  name: "App",
   components: {
     HelloWorld,
     HomePage,
     ImageDetailComponent,
-    PageTodo,
+    PageTodo
   },
 
   data: () => ({
