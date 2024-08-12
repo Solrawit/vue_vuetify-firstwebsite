@@ -38,7 +38,7 @@
 </template>
 <script>
   export default {
-    name: 'app',
+    name: 'PageTodo',
     data: () => ({
       items: ['ไปเที่ยว', 'ดูหนัง', 'ฟังเพลง'],
       newText: ''
